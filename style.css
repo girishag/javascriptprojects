@@ -1,0 +1,168 @@
+body {
+	height:98%;
+	width:100%;
+	margin:0;
+	font-family:san-serif;
+	background-color:lightblue;
+     }
+#container {
+	background-color:black;
+	height:100%;
+	position:relative;
+	width:25%;
+	left:35%;
+	overflow:hidden;
+	margin-top:10px;
+	   }
+.line {
+	position:absolute;
+	height: 100px;
+	width:4%;
+	visibility:visible;
+	background-color:grey;
+	margin-left:50%;
+      }
+#line_1 {
+	top:-150px;
+	}
+#line_2 {
+	top:150px;
+	}
+#line_3 {
+	top:450px;
+	}
+	
+.car {
+	position:absolute;
+	height:60px;
+	width:40px;
+	border-radius:5px;
+	box-shadow: 0px 1px 5px 0px black;
+     }
+#car_p {
+	
+	bottom:12px;
+	left:60%;
+	background-color:yellow;
+      }
+.f_glass {
+	position:absolute;
+	height:20%:
+	width:60%;
+	top:15%;
+	margin-left:20%;
+	background-color:grey;
+	border-radius:0px 0px 5px 5px;
+	 }
+.b_glass{
+	position:absolute;
+	height:20%;
+	width:60%;
+	bottom:15%;
+	margin-left:20%;
+	background-color:grey;
+	border-radius:5px 5px 0px 0px;
+	}
+.f_light_r{
+	position:absolute;
+	height:10%;
+	width:20%;
+	margin-left:70%;
+	top:-6%;
+	background-color:#efefef;
+	border-radius: 5px 5px 0px 0px;
+	  }
+.f_light_l {
+	position:absolute;
+	height:10%;
+	width:20%;
+	margin-left:10%;
+	top:-6%;
+	background-color:#efefef;
+	border-radius: 5px 5px 0px 0px;
+	  }
+.f_tyre_l {
+	position:absolute;
+	height:20%;
+	width:10%;
+	top:20%;
+	left:-10%;
+	background-color:grey;
+	border-radius: 5px 5px 0px 0px;
+	  }
+.f_tyre_r {
+	position:absolute;
+	height:10%;
+	width:20%
+	background-color:grey;
+	top:20%;
+	left:100%;
+	border-radius: 5px 5px 0px 0px;
+	  }
+.b_tyre_l {
+	position:absolute;
+	height:20%;
+	width:10%;
+	left:-10%;
+	top:70%;
+	background-color:grey;
+	border-radius: 5px 5px 0px 0px;
+	  }
+.b_tyre_r {
+	position:absolute;
+	height:20%;
+	width:10%;
+	left:100%;
+	top:70%;
+	background-color:#efefef;
+	border-radius: 5px 5px 0px 0px;
+	  }	
+#car_1 {
+	top:-100px;
+	left:60%;
+	background-color:blue;
+	}
+#car_2 {
+	top:-200px;
+	left:40%;
+	background-color:blue;
+	}
+#car_3 {
+	top:-350px;
+	left:50%;
+	background-color:blue;
+	}
+#score_div {
+	position:absolute;
+	margin-top:20%;
+	margin-left:10%;
+	font-size: 35px;
+	background-color:white;
+	color:#454545;
+	padding:10px;
+	box-shadow:4px 4px 0px 0px #808080;
+	   }
+#restart_div {
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-color:#292929;
+	color:white;
+	font-family: san-serif;
+	font-size:40px;
+	text-align:center;
+	display:none;
+	    }
+#restart {
+	position:relative;
+	border: 1px solid black;
+	padding: 25px;
+	color: white;
+	margin-top: #8a64ff;
+	font-size: 20px;
+	background-color:green ;
+	top:200px;
+	}
+.small_text{
+	font-size: 15px;
+	   }
